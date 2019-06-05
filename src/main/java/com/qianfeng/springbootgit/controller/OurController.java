@@ -16,14 +16,7 @@ public class OurController {
     @ResponseBody
     public String hello(){
         System.out.println("hello");
+        System.out.println("dev......");
         return "hello";
     }
-
-    @RequestMapping("/hello2")
-    @ResponseBody
-    public String hello2(){
-        System.out.println("hello2");
-        return "hello";
-    }
-
 }
