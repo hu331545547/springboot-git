@@ -15,12 +15,14 @@ public class OurController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello(){
+        System.out.println("hello");
         return "hello";
     }
 
     @RequestMapping("/hello2")
     @ResponseBody
     public String hello2(){
+        System.out.println("hello2");
         return "hello";
     }
 
