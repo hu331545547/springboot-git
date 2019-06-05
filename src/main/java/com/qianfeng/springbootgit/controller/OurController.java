@@ -18,4 +18,10 @@ public class OurController {
         return "hello";
     }
 
+    @RequestMapping("/hello2")
+    @ResponseBody
+    public String hello2(){
+        return "hello";
+    }
+
 }
